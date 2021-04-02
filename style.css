@@ -1,5 +1,5 @@
 body {
-  background-image: url(background.jfif);
+  background-image: url(background.jpeg);
 }
 .page {
   padding: 0;
@@ -32,13 +32,13 @@ html {
   .navbar {
     padding-left: 15%;
     padding-right: 15%;
-    background-color: rgb(219, 59, 59, 0.932);
+    background-color: rgb(0, 0, 0, 0.932);
   }
 }
 
 @media only screen and (max-width: 992px) {
   .navbar {
-    background-color: rgba(219, 59, 59, 0.932);
+    background-color: rgba(0, 0, 0, 0.932);
   }
 }
 .nav-item {
@@ -50,7 +50,7 @@ html {
 }
 
 .background {
-  background-color: rgba(214, 186, 186, 0.932);
+  background-color: rgba(177, 162, 162, 0.932);
   margin-bottom: 0;
   border-radius: 5px;
   border-top-left-radius: 0;
@@ -63,7 +63,7 @@ html {
   margin: 0;
 }
 .hbackground {
-  background-color: rgb(223, 215, 215, 0.932);
+  background-color: rgba(199, 190, 190, 0.932);
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
