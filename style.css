@@ -32,13 +32,13 @@ html {
   .navbar {
     padding-left: 15%;
     padding-right: 15%;
-    background-color: rgb(219, 59, 59);
+    background-color: rgb(219, 59, 59, 0.932);
   }
 }
 
 @media only screen and (max-width: 992px) {
   .navbar {
-    background-color: rgb(219, 59, 59);
+    background-color: rgba(219, 59, 59, 0.932);
   }
 }
 .nav-item {
@@ -50,7 +50,7 @@ html {
 }
 
 .background {
-  background-color: rgb(214, 186, 186);
+  background-color: rgba(214, 186, 186, 0.932);
   margin-bottom: 0;
   border-radius: 5px;
   border-top-left-radius: 0;
@@ -63,7 +63,7 @@ html {
   margin: 0;
 }
 .hbackground {
-  background-color: rgb(223, 215, 215);
+  background-color: rgb(223, 215, 215, 0.932);
   border-radius: 5px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -76,7 +76,7 @@ html {
 }
 
 .footer {
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.932);
   color: rgb(255, 255, 255);
 }
 
@@ -86,14 +86,14 @@ html {
 }
 
 .institute {
-  color: black;
+  color: rgba(0, 0, 0);
   font-weight: 600;
 }
 
 .institute:hover {
-  text-decoration: underline;
-  font-size: 1.3rem;
-  color: black;
+  text-decoration: solid;
+  font-size: 1.23rem;
+  color: rgba(0, 0, 0);
 }
 
 .icon {
@@ -112,7 +112,7 @@ html {
 }
 
 .fab {
-  color: black;
+  color: rgba(0, 0, 0, 0.932);
   font-size: 48px;
 }
 
