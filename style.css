@@ -91,9 +91,9 @@ html {
 }
 
 .institute:hover {
-  text-decoration: solid;
-  font-size: 1.23rem;
-  color: rgba(0, 0, 0);
+  text-decoration:solid;
+  font-size: 1.3rem;
+  color: rgb(48, 29, 29);
 }
 
 .icon {
