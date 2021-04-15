@@ -1,5 +1,5 @@
 body {
-  background-image: url(Resources/background.jpeg);
+  background-image: url(Resources/background.gif);
 }
 .page {
   padding: 0;
@@ -46,7 +46,7 @@ html {
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .background {

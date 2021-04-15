@@ -1,0 +1,40 @@
+body {
+  background-image: url(Resources/background.gif) !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#welcome {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Notable";
+  margin-top: 5%;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 2.3rem;
+}
+
+.link:hover {
+  text-decoration: solid;
+  font-size: 2.5rem;
+  color: rgb(255, 217, 0);
+}
+
+.section {
+  display: block;
+  text-align: center;
+  height: max-content;
+}
+
+.form-bg {
+    background-color: #ede7f6;
+    padding-top: 1000%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
