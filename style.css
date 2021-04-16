@@ -32,9 +32,25 @@ html {
 }
 
 .form-bg {
-    background-image: url("Resources/form.jpeg");
-    padding-top: 1000%;
-    padding-bottom: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
+  background-image: url("Resources/form.jpeg");
+  padding-top: 1000%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+#confession {
+  width: 300px;
+  height: 200px;
+  overflow-y: auto;
+  overflow-x: auto;
+  resize: both;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 767px) {
+  iframe {
+    width: 100%;
   }
+}
