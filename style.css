@@ -49,6 +49,10 @@ html {
   z-index: 2;
 }
 
+#animated-intro:hover{
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 767px) {
   iframe {
     width: 100%;
