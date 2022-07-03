@@ -1,6 +1,10 @@
 body {
   background-image: url(Resources/background.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 .page {
   padding: 0;
 }
@@ -28,11 +32,19 @@ html {
   padding: 3% 15%;
 }
 
+.empty-div {
+  display: none;
+}
+
 @media only screen and (min-width: 992px) {
   .navbar {
     padding-left: 15%;
     padding-right: 15%;
     background-color: rgb(0, 0, 0, 0.932);
+  }
+
+  .empty-div {
+    display: block;
   }
 }
 
@@ -58,6 +70,10 @@ html {
   padding: 10px;
 }
 
+.backgroundup {
+  border-radius: 0;
+}
+
 .photo-background {
   padding: 10px 0 !important;
   margin: 0;
@@ -69,6 +85,11 @@ html {
   border-bottom-right-radius: 0;
   margin-bottom: 0;
   padding: 10px;
+}
+
+.paragraph{
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .sbackground {
@@ -91,7 +112,7 @@ html {
 }
 
 .institute:hover {
-  text-decoration:solid;
+  text-decoration: solid;
   font-size: 1.3rem;
   color: rgb(48, 29, 29);
 }
@@ -132,11 +153,11 @@ html {
 
 @media only screen and (min-width: 767px) {
   .about-me-div {
-    padding-right: 0;
+    padding-right: 10;
   }
 
   .my_photo_div {
-    padding-left: 0;
+    padding-left: 10;
   }
 
   .my_photo {

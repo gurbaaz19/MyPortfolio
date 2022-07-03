@@ -1,7 +1,3 @@
-body {
-  background-image: url(Resources/background.gif) !important;
-}
-
 html {
   scroll-behavior: smooth;
 }
