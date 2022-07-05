@@ -24,6 +24,11 @@ body {
   font-size: 1.2rem;
 }
 
+#logo {
+    max-height: 50px;
+    object-fit: contain;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -152,36 +157,46 @@ html {
 }
 
 @media only screen and (min-width: 767px) {
-  .about-me-div {
-    padding-right: 10;
-  }
-
-  .my_photo_div {
-    padding-left: 10;
-  }
-
   .my_photo {
     max-height: 15em;
   }
 }
 @media only screen and (max-width: 378px) {
-  .navbar-brand {
-    font-size: 18px !important;
-  }
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+
+    #logo {
+        max-height: 40px;
+        object-fit: contain;
+    }
+}
 
   @media only screen and (max-width: 350px) {
     .navbar-brand {
       font-size: 16px !important;
     }
+      #logo {
+          max-height: 35px;
+          object-fit: contain;
+      }
   }
   @media only screen and (max-width: 322px) {
     .navbar-brand {
       font-size: 14px !important;
     }
+      #logo {
+          max-height: 30px;
+          object-fit: contain;
+      }
   }
   @media only screen and (max-width: 295px) {
     .navbar-brand {
       font-size: 12px !important;
     }
-  }
+
+      #logo {
+          max-height: 25px;
+          object-fit: contain;
+      }
 }
