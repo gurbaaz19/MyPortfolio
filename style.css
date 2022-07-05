@@ -2,10 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: url(Resources/background-old.gif);!important;
+}
+
+.confession-body {
+  background-image: url(Resources/background-old.jfif);!important;
+}
+
+
 #welcome {
   color: aliceblue;
   text-align: center;
-  font-family: "Notable";
+  font-family: "Notable", serif;
   margin-top: 5%;
 }
 
@@ -31,7 +40,6 @@ html {
   background-image: url("Resources/form.jpeg");
   padding-bottom: 1%;
   width: fit-content;
-  float: auto;
   border-radius: 20px;
 }
 
