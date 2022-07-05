@@ -14,9 +14,9 @@ function change() {
 }
 
 
-var i = 0;
-var txt = "Welcome to my Website !!!!"; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+let i = 0;
+const txt = "Welcome to my Website !!!!"; /* The text */
+const speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function welcome() {
   if (i < txt.length) {
