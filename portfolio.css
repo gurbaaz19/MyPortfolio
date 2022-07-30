@@ -104,6 +104,7 @@ html {
 .footer {
   background-color: rgba(0, 0, 0, 0.932);
   color: rgb(255, 255, 255);
+  bottom:0 !important;
 }
 
 .section {
